@@ -1,0 +1,19 @@
+.outerbox{
+    height: 150px;
+    width: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   column-gap: 20px;
+}
+
+.content{
+    height: 150px;
+    width: 170px;
+    border-radius: 10px;
+}
+.fav{
+    position: relative;
+    top: 28px;
+    left: 125px;
+    border-radius: 50%;
+}

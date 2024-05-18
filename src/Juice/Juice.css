@@ -1,0 +1,13 @@
+.Juice{
+    height: 170px;
+    width: 170px;
+    border-radius: 10px;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    margin-top: 15px;
+    column-gap: 10px;
+}
