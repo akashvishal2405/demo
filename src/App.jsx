@@ -22,8 +22,9 @@ function App() {
     <Routes>
        
 
-        <Route  path='/' element={<MenuBar />}> 
-        <Route  path='burger' element={<Burger />}/>
+        <Route  >
+          <Route path='/' element={<MenuBar />}>
+        <Route  index path='burger' element={<Burger />}/>
         <Route   path='falooda' element={<Falooda />}/>
         <Route   path='breadomlet' element={<BreadOmlet />}/>
         <Route   path='juice' element={<Juice />}/>
@@ -32,11 +33,8 @@ function App() {
         <Route   path='orea' element={<Orea />}/>
         <Route   path='shakes' element={<Shakes />}/>
         <Route   path='spical' element={<Spicalshakes />}/>
-       
-   
-      </Route>
-
-     
+        </Route>
+        </Route>
     
       
     </Routes>
